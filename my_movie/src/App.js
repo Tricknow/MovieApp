@@ -2,7 +2,7 @@ import React from "react";
 import { apiKey } from "./apiKey";
 import AxiosMovie from './AxiosMovie';
 
-const url = `https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}&language=en-US&page=1`;
+const url = `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US&page=1`;
 
 const App = () => {
   return (
