@@ -1,11 +1,12 @@
 import React from "react";
 import PropTypes from 'prop-types'
 import './Movie.css';
+import { useNavigate } from "react-router-dom";
 
-function Movie({ release_date, title, overview, poster_path, genre_ids}){
-    // console.log(poster_path)
+function Movie({ release_date, title, overview, poster_path, genre_ids, id}){
+    const navigate = useNavigate()
     return (
-        <div className="movie">
+        <div onClick={()=>navigate(`/${id}`)} className="movie">
             <img
                 src={'https://image.tmdb.org/t/p/w400'+poster_path}
                 alt={title}
