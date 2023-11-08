@@ -1,12 +1,12 @@
 import React from "react";
 import axios from 'axios'
 import { Now_playing_url } from "../components/Env";
-import Movie from "../components/Movie";
-import './Home.css';
+import NowMovies from "../components/NowMovies";
+import './Nowplaying.css';
 
 
 
-class Home extends React.Component {
+class Nowplaying extends React.Component {
   state = {
     isLoading: true,
     movies: [],
@@ -26,25 +26,23 @@ class Home extends React.Component {
 
   render(){
     const { isLoading, results } = this.state;
+    
     return (
-    <section className="container">
+    <section className="now_container">
       {isLoading ? (
-        <div className="loader">
-          <span className="loader__text">Loading...</span>
+        <div className="now_loader">
+          <span className="now_loader__text">Loading...</span>
         </div>
       ) : (
         <div>
           <p className="nowPlaying_text">
-            현재 상영중
-            <button type="button" className="button" onClick={alert('hi')}>
-              <span>더 보기</span>
-            </button>
+            현재 상영중 영화 목록
           </p>
-          <div className="movies">
+          <div className="now_movies">
           {results.map((movie)=> {
             //console.log(movie);
             return(
-              <Movie
+              <NowMovies
                 key = {movie.id}
                 id = {movie.id}
                 release_date = {movie.release_date}
@@ -63,4 +61,4 @@ class Home extends React.Component {
   }
 }
 
-export default Home;
+export default Nowplaying;
