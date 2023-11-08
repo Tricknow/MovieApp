@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from 'axios'
 import { apiKey } from "../components/Env";
+import './About.css';
 
 function About(){
     const param = useParams()
@@ -25,7 +26,7 @@ function About(){
         <div class='about'>
             <div class='poster'>
             <img
-                src={`https://image.tmdb.org/t/p/w400${detail.backdrop_path}`}
+                src={`https://image.tmdb.org/t/p/w500${detail.backdrop_path}`}
                 alt={detail.title}
                 title={detail.tagline} />
             </div>
