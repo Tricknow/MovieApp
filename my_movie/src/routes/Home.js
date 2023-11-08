@@ -33,9 +33,9 @@ class Home extends React.Component {
           <span className="loader__text">Loading...</span>
         </div>
       ) : (
-        <div>
+        <div className="nowPlaying_box">
           <p className="nowPlaying_text">
-            현재 상영중
+            현재 상영중 
             <button type="button" className="button" onClick={alert('hi')}>
               <span>더 보기</span>
             </button>
