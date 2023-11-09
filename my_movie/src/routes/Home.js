@@ -3,7 +3,7 @@ import axios from 'axios'
 import { Now_playing_url } from "../components/Env";
 import Movie from "../components/Movie";
 import './Home.css';
-import { useNavigate } from "react-router-dom";
+
 
 
 

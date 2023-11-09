@@ -13,8 +13,10 @@ function Movie({ release_date, title, overview, poster_path, vote_average, id}){
                     title={overview} />
                 <div className="movie__data">
                     <h3 className="movie__title">{title}</h3>
-                    <h5 className="movie__release_date">{release_date}</h5>
-                    <span className="vote_average">⭐{vote_average}/10</span>
+                    <div className="movie__ddata">
+                        <h5 className="movie__release_date">{release_date}</h5>
+                        <span className="vote_average">⭐{vote_average}/10</span>
+                    </div>
                 </div>
             </div>
     );
