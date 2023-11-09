@@ -3,6 +3,7 @@ import axios from 'axios'
 import { Now_playing_url } from "../components/Env";
 import Movie from "../components/Movie";
 import './Home.css';
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -24,8 +25,12 @@ class Home extends React.Component {
     this.getMovies()
   };
 
+
   render(){
     const { isLoading, results } = this.state;
+    function seeNow(e) {
+      window.location.href = "/now"
+    }
     return (
     <section className="container">
       {isLoading ? (
@@ -34,12 +39,13 @@ class Home extends React.Component {
         </div>
       ) : (
         <div className="nowPlaying_box">
-          <p className="nowPlaying_text">
-            현재 상영중 
-            <button type="button" className="button" onClick={alert('hi')}>
+          <div className="nowPlaying_text">
+          <p> 현재 상영중 
+            <button type="button" className="button" onClick={seeNow}>
               <span>더 보기</span>
             </button>
           </p>
+          </div>
           <div className="movies">
           {results.map((movie)=> {
             //console.log(movie);
