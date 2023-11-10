@@ -14,7 +14,7 @@ function NowMovies({ release_date, title, overview, poster_path, vote_average, i
                 <div className="movie__data">
                     <h3 className="movie__title">{title}</h3>
                     <h5 className="movie__release_date">{release_date}</h5>
-                    <span className="vote_average">⭐{vote_average}/10</span>
+                    <span role="img" aria-label="star" className="vote_average">⭐{vote_average.toFixed(1)}/10</span>
                 </div>
             </div>
     );

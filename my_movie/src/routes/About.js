@@ -17,7 +17,7 @@ function About(){
             //console.log(res)
             setDetail(res.data)
         })
-    },[])
+    })
 
     //const g_detail = detail.genres
     //console.log(detail?.genre[0])
@@ -37,7 +37,7 @@ function About(){
 
                 </div>
                 <div class="detail_subClass">
-                    <span>⭐{detail.vote_average} </span>
+                    <span role="img" aria-label="star">⭐{detail.vote_average} </span>
                     <span>▪ </span>
                     <span>{detail.release_date} </span>
                     <span>▪ </span>
@@ -48,7 +48,7 @@ function About(){
                 <p class="detail_overview">{detail.overview}</p>
             </div>
             <div>
-                <div><img src={`https://image.tmdb.org/t/p/original/${detail.production_companies}`} class="sc-fznMAR gSVBBi"/>detail.production_companies[0].name</div>
+                <div><img src={`https://image.tmdb.org/t/p/original/${detail.production_companies}`} alt="Production_Company"/>detail.production_companies[0].name</div>
                 
             </div>
         </div>
