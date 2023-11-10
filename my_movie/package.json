@@ -15,7 +15,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -35,6 +37,7 @@
       "last 1 safari version"
     ]
   },
+  "homepage": "https://argogy.github.io/Moviegrade",
   "devDependencies": {
     "@jridgewell/sourcemap-codec": "^1.4.15"
   }
