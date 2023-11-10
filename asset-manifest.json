@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MovieGrade/static/css/main.f775fda4.chunk.css",
-    "main.js": "/MovieGrade/static/js/main.462634d7.chunk.js",
-    "main.js.map": "/MovieGrade/static/js/main.462634d7.chunk.js.map",
-    "runtime~main.js": "/MovieGrade/static/js/runtime~main.72f55e45.js",
-    "runtime~main.js.map": "/MovieGrade/static/js/runtime~main.72f55e45.js.map",
-    "static/js/2.3d1f21b6.chunk.js": "/MovieGrade/static/js/2.3d1f21b6.chunk.js",
-    "static/js/2.3d1f21b6.chunk.js.map": "/MovieGrade/static/js/2.3d1f21b6.chunk.js.map",
-    "index.html": "/MovieGrade/index.html",
-    "precache-manifest.3e490dd45424f1f90d8cc71fc9d8583f.js": "/MovieGrade/precache-manifest.3e490dd45424f1f90d8cc71fc9d8583f.js",
-    "service-worker.js": "/MovieGrade/service-worker.js",
-    "static/css/main.f775fda4.chunk.css.map": "/MovieGrade/static/css/main.f775fda4.chunk.css.map"
+    "main.css": "/MovieApp/static/css/main.f775fda4.chunk.css",
+    "main.js": "/MovieApp/static/js/main.462634d7.chunk.js",
+    "main.js.map": "/MovieApp/static/js/main.462634d7.chunk.js.map",
+    "runtime~main.js": "/MovieApp/static/js/runtime~main.bc4dc0ff.js",
+    "runtime~main.js.map": "/MovieApp/static/js/runtime~main.bc4dc0ff.js.map",
+    "static/js/2.3d1f21b6.chunk.js": "/MovieApp/static/js/2.3d1f21b6.chunk.js",
+    "static/js/2.3d1f21b6.chunk.js.map": "/MovieApp/static/js/2.3d1f21b6.chunk.js.map",
+    "index.html": "/MovieApp/index.html",
+    "precache-manifest.5eb2c73f8cacea8aaf90716263512ae4.js": "/MovieApp/precache-manifest.5eb2c73f8cacea8aaf90716263512ae4.js",
+    "service-worker.js": "/MovieApp/service-worker.js",
+    "static/css/main.f775fda4.chunk.css.map": "/MovieApp/static/css/main.f775fda4.chunk.css.map"
   }
 }
