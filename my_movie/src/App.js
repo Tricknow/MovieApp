@@ -11,7 +11,7 @@ import Popular from './routes/Popular';
 
 function App(){
   return (
-    <BrowserRouter basename={process.env.public_URL}>
+    <BrowserRouter basename="/MovieApp/">
     <Navigation />
     <Routes>
       <Route element={<About/>} path='/:movieid'></Route>
