@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Moviegrade/static/css/main.f775fda4.chunk.css",
+    "main.js": "/Moviegrade/static/js/main.462634d7.chunk.js",
+    "main.js.map": "/Moviegrade/static/js/main.462634d7.chunk.js.map",
+    "runtime~main.js": "/Moviegrade/static/js/runtime~main.a7a7c510.js",
+    "runtime~main.js.map": "/Moviegrade/static/js/runtime~main.a7a7c510.js.map",
+    "static/js/2.3d1f21b6.chunk.js": "/Moviegrade/static/js/2.3d1f21b6.chunk.js",
+    "static/js/2.3d1f21b6.chunk.js.map": "/Moviegrade/static/js/2.3d1f21b6.chunk.js.map",
+    "index.html": "/Moviegrade/index.html",
+    "precache-manifest.cf5ad18bbeb70c0a899415ef1da49ef3.js": "/Moviegrade/precache-manifest.cf5ad18bbeb70c0a899415ef1da49ef3.js",
+    "service-worker.js": "/Moviegrade/service-worker.js",
+    "static/css/main.f775fda4.chunk.css.map": "/Moviegrade/static/css/main.f775fda4.chunk.css.map"
+  }
+}
