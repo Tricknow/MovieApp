@@ -51,13 +51,13 @@ class Home extends React.Component {
   render(){
     const { isLoading, movies, popular_movies, topRated_movies } = this.state;
     function seeNow(e) {
-      window.location.href = "/now"
+      window.location.href = "/MovieApp/now"
     }
     function seeTop(e) {
-      window.location.href = "/top"
+      window.location.href = "/MovieApp/top"
     }
     function seePopular(e) {
-      window.location.href = "/popular"
+      window.location.href = "/MovieApp/popular"
     }
     return (
     <section className="container">
