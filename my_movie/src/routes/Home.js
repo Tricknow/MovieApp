@@ -59,7 +59,8 @@ class Home extends React.Component {
         <div>
           <div className="nowPlaying_box">
               <SeeMore
-                category = "/now"/>
+                category = "Now Playing Movies"
+                address = "/now"/>
             <div className="movies">
             {movies.map((movie)=> {
               //console.log(movie);
@@ -80,7 +81,8 @@ class Home extends React.Component {
 
           <div className="nowPlaying_box">
           <SeeMore
-                category = "/top"/>
+                category = "Top Rated Movies"
+                address = "/top" />
             <div className="movies">
             {topRated_movies.map((movie)=> {
               //console.log(movie);
@@ -101,7 +103,8 @@ class Home extends React.Component {
 
           <div className="nowPlaying_box">
             <SeeMore
-            category = "/popular"/>
+            category = "Popular Movies"
+            address = "/popular"/>
             
             <div className="movies">
             {popular_movies.map((movie)=> {
