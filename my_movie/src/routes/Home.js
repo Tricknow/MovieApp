@@ -5,9 +5,7 @@ import { topRated_playing_url } from "../components/Env";
 import { popular_url } from "../components/Env";
 import Movie from "../components/Movie";
 import './Home.css';
-
-
-
+import SeeMore from "../components/SeeMore";
 
 
 class Home extends React.Component {
@@ -47,19 +45,11 @@ class Home extends React.Component {
     this.getTopRatedMovies()
   };
 
-
+  
   render(){
-    const { isLoading, movies, popular_movies, topRated_movies } = this.state;
-    function seeNow(e) {
-      window.location.href = "/MovieApp/now"
-    }
-    function seeTop(e) {
-      window.location.href = "/MovieApp/top"
-    }
-    function seePopular(e) {
-      window.location.href = "/MovieApp/popular"
-    }
+    const { isLoading, movies, popular_movies, topRated_movies} = this.state;
     return (
+      
     <section className="container">
       {isLoading ? (
         <div className="loader">
@@ -68,13 +58,8 @@ class Home extends React.Component {
       ) : (
         <div>
           <div className="nowPlaying_box">
-            <div className="nowPlaying_text">
-              <p> Now Playing
-                <button type="button" className="button" onClick={seeNow}>
-                  <span>더 보기</span>
-                </button>
-              </p>
-            </div>
+              <SeeMore
+                category = "/now"/>
             <div className="movies">
             {movies.map((movie)=> {
               //console.log(movie);
@@ -94,13 +79,8 @@ class Home extends React.Component {
           </div>
 
           <div className="nowPlaying_box">
-            <div className="nowPlaying_text">
-              <p> Top Rated
-                <button type="button" className="button" onClick={seeTop}>
-                  <span>더 보기</span>
-                </button>
-              </p>
-            </div>
+          <SeeMore
+                category = "/top"/>
             <div className="movies">
             {topRated_movies.map((movie)=> {
               //console.log(movie);
@@ -120,13 +100,9 @@ class Home extends React.Component {
           </div>
 
           <div className="nowPlaying_box">
-            <div className="nowPlaying_text">
-              <p> Popularity
-                <button type="button" className="button" onClick={seePopular}>
-                  <span>더 보기</span>
-                </button>
-              </p>
-            </div>
+            <SeeMore
+            category = "/popular"/>
+            
             <div className="movies">
             {popular_movies.map((movie)=> {
               //console.log(movie);

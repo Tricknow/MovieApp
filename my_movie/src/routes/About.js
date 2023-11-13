@@ -4,7 +4,7 @@ import axios from 'axios'
 import { apiKey } from "../components/Env";
 import './About.css';
 
-const sample_logo = "kDedjRZwO8uyFhuHamomOhN6fzG.png"
+
 function About(){
     const param = useParams()
     const detailUrl = `https://api.themoviedb.org/3/movie/${param.movieid}?language=ko-ko&api_key=${apiKey}`;
