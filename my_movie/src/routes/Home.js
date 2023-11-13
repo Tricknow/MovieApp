@@ -26,14 +26,14 @@ class Home extends React.Component {
   getPopularMovies = async () => {
     const {
       data : {results},
-    } = await axios.get(topRated_playing_url);
+    } = await axios.get(popular_url);
     //console.log(results);;
     this.setState({popular_movies:results, isLoading:false});
   };
   getTopRatedMovies = async () => {
     const {
       data : {results},
-    } = await axios.get(popular_url);
+    } = await axios.get(topRated_playing_url);
     //console.log(results);;
     this.setState({topRated_movies:results, isLoading:false});
   };
