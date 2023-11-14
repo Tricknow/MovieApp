@@ -1,12 +1,11 @@
 .nav{
-    width: 1860px;;
     z-index : 1;
     position:fixed;
     top: initial;
     left: initial;
     display:inline-block;
+    background-color: black;
     flex-direction:initial;
-    background-color: white;
     padding-top: 21px;
     padding-bottom: 25px;
     padding-left: 4px;
@@ -35,7 +34,7 @@
     padding-bottom: 26px;
     padding-left: 30px;
     padding-right: 30px;
-    color: black;
+    color: white;
     text-decoration:none;
     text-align: center;
 }
@@ -52,8 +51,8 @@
     width: 100px;
 }
 .active{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 @media screen and (max-width:835px){
@@ -66,11 +65,11 @@
     }
     .navMenu{
         padding: 0px;
-        color: black;
+        color: white;
         text-decoration:none;    
     }
     .active{
-        background-color: black;
-        color: white;
+        background-color: white;
+        color: black;
     }
 };

@@ -1,6 +1,7 @@
 .now_container{
     height: 100%;
     display: flex;
+    background-color: black;
 
 }
 
@@ -20,6 +21,7 @@
     padding-left: 30px;
     padding-top: 10px;
     font-size: 28px;
+    color: white;
 
 }
 

@@ -1,5 +1,6 @@
 .container{
     height: 100%;
+    background-color: black;
 }
 
 .nowPlaying_box{
@@ -11,7 +12,6 @@
 }
 .nowPlaying_text p{
   position:relative;
-  width : 3465px;
   padding-top: 10px;
   padding-left: 15px;
   top:-76px;
