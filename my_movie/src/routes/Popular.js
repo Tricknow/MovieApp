@@ -14,7 +14,7 @@ class Nowplaying extends React.Component {
   getMovies = async () => {
     const {
       data: {results},
-    }  = await axios.get(popular_url);
+    }  = await axios.get(popular_url(1));
   //  console.log(results);
     this.setState({results, isLoading:false});
   };
