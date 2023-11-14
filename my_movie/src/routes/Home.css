@@ -91,10 +91,10 @@
   }
   .nowPlaying_text p{
     position:relative;
-    width : 3465px;
-    padding-top: 10px;
+    width : 480px;
+    padding-top: 6px;
     padding-left: 15px;
-    top:-195px;
+    top:-196px;
     left:-50px;
     font-size: 28px;
     text-align: left;
