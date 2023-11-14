@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import './Seemore.css'
 
 function SeeMore(props){
     const navigate = useNavigate();

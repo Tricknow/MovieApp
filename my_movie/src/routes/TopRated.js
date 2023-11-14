@@ -2,7 +2,7 @@ import React from "react";
 import axios from 'axios'
 import { topRated_playing_url } from "../components/Env";
 import NowMovies from "../components/NowMovies";
-import './Nowplaying.css';
+import './TopRated.css';
 
 
 class Nowplaying extends React.Component {

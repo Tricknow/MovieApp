@@ -59,7 +59,7 @@
 
 @media screen and (max-width:835px){
     .nav{
-        width: 100%;
+        width: 400px;
         padding: 0px;
         display:inline-grid;
         grid-template-rows: 45px 40px 40px 40px 25px;

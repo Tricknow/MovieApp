@@ -1,0 +1,52 @@
+.nowPlaying_box{
+    position: relative;
+    top: 70px;
+    left : 5px;
+    outline: outset 2px black;
+  
+  }
+  .nowPlaying_text p{
+    position:relative;
+    padding-top: 10px;
+    padding-left: 15px;
+    top:-76px;
+    left:-50px;
+    font-size: 28px;
+    text-align: left;
+    background-color: black;
+    color: white;
+    outline: outset 2px black;
+  }
+
+
+@media screen and (max-width:835px){
+    .nowPlaying_box{
+      position:relative;
+      top : 200px;
+      width: 400px;
+    }
+    .nowPlaying_text p{
+      position:relative;
+      width : 100%;
+      padding-top: 6px;
+      padding-left: 15px;
+      top:-192px;
+      left:-50px;
+      font-size: 22px;
+      text-align: left;
+      background-color: black;
+      color: white;
+      outline: outset 2px black;
+    }
+    .movies {
+      overflow-x:scroll;
+      display: grid;
+      grid-template-columns: repeat(20, minmax(170px, 1fr));
+      grid-gap: 3px;
+      padding: 5px;
+      width: 100%; 
+      padding-top: 70px;
+      padding-bottom: 10px;
+  }
+   
+  }
