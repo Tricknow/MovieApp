@@ -37,7 +37,7 @@ function About(){
     )
 
     useEffect(() => {
-        console.log(company)
+        //console.log(company)
     }, [company]
     )
 
