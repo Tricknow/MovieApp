@@ -8,7 +8,7 @@
     background-color: black;
     flex-direction:initial;
     padding-top: 21px;
-    padding-bottom: 25px;
+    padding-bottom: 29px;
     padding-left: 4px;
     box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.23),
                 0 8px 16px -8px rgba(0, 0, 0, 0.3)
@@ -31,8 +31,8 @@
 }
 
 .navMenu{
-    padding-top: 20px;
-    padding-bottom: 26px;
+    padding-top: 9px;
+    padding-bottom: 15px;
     padding-left: 30px;
     padding-right: 30px;
     color: white;
@@ -43,8 +43,9 @@
     font-family:'Courier New', Courier, monospace;
     font-size: 15px;
     background-color:dimgrey;
-    padding: 25px;
+    padding: 15px;
     color: white;
+    text-align: center;
 
 }
 .TMDB_img{
@@ -58,6 +59,7 @@
 
 @media screen and (max-width:835px){
     .nav{
+        width: 100%;
         padding: 0px;
         display:inline-grid;
         grid-template-rows: 45px 40px 40px 40px 25px;
