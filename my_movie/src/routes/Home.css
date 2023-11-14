@@ -102,5 +102,15 @@
     color: white;
     outline: outset 2px black;
   }
+  .movies {
+    overflow-x:scroll;
+    display: grid;
+    grid-template-columns: repeat(20, minmax(170px, 1fr));
+    grid-gap: 3px;
+    padding: 5px;
+    width: 100%; 
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
  
 }

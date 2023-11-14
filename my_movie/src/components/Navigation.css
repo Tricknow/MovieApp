@@ -67,6 +67,8 @@
     .navMenu{
         padding: 0px;
         color: white;
+        text-align: left;
+        padding-left: 40%;
         text-decoration:none;    
     }
     .active{
