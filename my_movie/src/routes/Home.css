@@ -84,14 +84,14 @@
     padding-top: 70px;
 }
 
-@media screen and (max-width:1090px){
+@media screen and (max-width:835px){
   .nowPlaying_box{
     position:relative;
     top : 200px;
   }
   .nowPlaying_text p{
     position:relative;
-    width : 480px;
+    width : 800px;
     padding-top: 6px;
     padding-left: 15px;
     top:-196px;
