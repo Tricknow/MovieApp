@@ -1,7 +1,5 @@
 .container{
     height: 100%;
-    display: flex;
-
 }
 
 .nowPlaying_box{
@@ -77,10 +75,32 @@
   }
 
 .movies {
+    overflow:scroll;
     display: grid;
     grid-template-columns: repeat(20, minmax(170px, 1fr));
     grid-gap: 3px;
     padding: 5px;
     width: 100%; 
     padding-top: 70px;
+}
+
+@media screen and (max-width:1090px){
+  .nowPlaying_box{
+    position:relative;
+    top : 200px;
+  }
+  .nowPlaying_text p{
+    position:relative;
+    width : 3465px;
+    padding-top: 10px;
+    padding-left: 15px;
+    top:-195px;
+    left:-50px;
+    font-size: 28px;
+    text-align: left;
+    background-color: black;
+    color: white;
+    outline: outset 2px black;
+  }
+ 
 }

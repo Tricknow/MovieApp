@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import './Movie.css';
 import { useNavigate } from "react-router-dom";
 
+
 function Movie({ release_date, title, overview, poster_path, vote_average, id}){
     const navigate = useNavigate()
     return (

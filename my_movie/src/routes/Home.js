@@ -8,6 +8,7 @@ import './Home.css';
 import SeeMore from "../components/SeeMore";
 
 
+
 class Home extends React.Component {
   state = {
     isLoading: true,

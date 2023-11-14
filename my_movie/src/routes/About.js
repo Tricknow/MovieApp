@@ -54,8 +54,6 @@ function About(){
                 <div class="detail_title">
                     <h3>{detail.title} ({detail.original_title})</h3>
                     <h5>Origin country :{country.length >=1 ? country.map((e)=> (<span> [{e.name}] </span>)) : country}</h5>
-                    
-                     
                 </div>
                 <div class="detail_subClass">
                     <span role="img" aria-label="star">⭐{detail.vote_average} </span>

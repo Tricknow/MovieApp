@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import './Navigation.css';
+import { NavLink } from "react-router-dom";
 
 
 
@@ -15,11 +15,10 @@ function Navigation() {
                     title={"TMDB"} />
                 </a>
             </span>
-            <Link className="navMenu" to='/'>Home</Link>
-            <Link className="navMenu" to='/now'>Now Playing</Link>
-            <Link className="navMenu" to='/top'>Top Rated</Link>
-            <Link className="navMenu" to='/popular'>Popular</Link>
-            
+            <NavLink activeclassName='active' className="navMenu" to='/'>Home</NavLink>
+            <NavLink activeclassName='active' className="navMenu" to='/now'>Now Playing</NavLink>
+            <NavLink activeclassName='active' className="navMenu" to='/top'>Top Rated</NavLink>
+            <NavLink activeclassName='active' className="navMenu" to='/popular'>Popular</NavLink>
         </div>
     )
 }
