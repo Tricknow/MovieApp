@@ -2,7 +2,7 @@ import React from "react";
 import axios from 'axios'
 import { popular_url } from "../components/Env";
 import NowMovies from "../components/NowMovies";
-import './Popular.css';
+import './Nowplaying.css';
 
 
 class Nowplaying extends React.Component {
