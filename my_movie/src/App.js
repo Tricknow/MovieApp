@@ -7,11 +7,14 @@ import Navigation from "./components/Navigation";
 import Nowplaying from './routes/Nowplaying'
 import TopRated from './routes/TopRated';
 import Popular from './routes/Popular';
+import {Reset} from 'styled-reset'
+
 
 
 function App(){
   return (
     <BrowserRouter basename="/MovieApp/">
+      <Reset/>
     <Navigation />
     <Routes>
       <Route element={<About/>} path='/:movieid'></Route>
