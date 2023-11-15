@@ -30,7 +30,7 @@
     .about{
         position: relative;
         top: 600px;
-        width: 400px;
+        width: initial;
 
     }   
 
