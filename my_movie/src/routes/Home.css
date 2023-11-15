@@ -57,6 +57,7 @@
 
 .movies {
     overflow-x:scroll;
+    overflow-y: hidden;
     display: grid;
     grid-template-columns: repeat(20, minmax(170px, 1fr));
     grid-gap: 3px;
