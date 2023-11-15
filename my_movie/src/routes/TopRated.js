@@ -5,6 +5,7 @@ import NowMovies from "../components/NowMovies";
 import './Nowplaying.css';
 
 
+
 class Nowplaying extends React.Component {
   state = {
     isLoading: true,
