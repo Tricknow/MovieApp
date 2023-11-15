@@ -66,7 +66,7 @@ function About(){
                 </div>
                 <p class="detail_overview">{detail.overview}</p>
             </div>
-            <div>
+            <div class="detail_company">
                 <div>제작사 ↓ 
                     {company.length >=1 ? company.map((e)=> (<h5>{e.name} from {e.origin_country}</h5>)) : company}
                 </div>

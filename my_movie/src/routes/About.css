@@ -2,11 +2,24 @@
     position: relative;
     top: 500px;
     left: 50%;
-    width: 400px;
+    width: 600px;
     transform: translate(-50%,-50%);
     text-align: center;
     color: white;
 
+.detail_title{
+    padding: 20px;
+}
+.detail_subClass{
+    padding: 15px;
+}
+.detail_overview{
+    padding: 15px;
+}
+.detail_company{
+    padding: 15px;
+    padding-bottom: 100px;
+}
 
 }
 .company_logo{
@@ -17,6 +30,7 @@
     .about{
         position: relative;
         top: 600px;
+        width: 400px;
 
     }   
 
